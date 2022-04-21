@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  /* background-color: #242424; */
+  /* color: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(to top right, #4358d0, #c850c0);
+}
+
+.btn-add {
+  background-color: #e3ae68;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-add:disabled {
+  cursor: auto;
+}
+
+.btn-add:hover {
+  background-color: #e89931;
+}
